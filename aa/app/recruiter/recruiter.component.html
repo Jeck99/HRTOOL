@@ -1,0 +1,25 @@
+<div class="chk-block-content widget-body">
+    <div class="table-responsive">
+        <table class="table table-middle table-hover fw-light th-fw-light th-pad-all-sm td-pad-all-sm">
+            <thead class="ng-tns-c4-0">
+                <tr class="ng-tns-c4-0">
+                    <th class="ng-tns-c4-0">#</th>
+                    <th class="ng-tns-c4-0">Verification</th>
+                    <th class="text-center">Username</th>
+                    <th class="ng-tns-c4-0">E-mail</th>
+                    <th class="ng-tns-c4-0">Mobile</th>
+                </tr>
+            </thead>
+            <tbody class="ng-tns-c4-0">
+                <tr class="ng-tns-c4-0" *ngFor="let Recruiter of Recruiters">
+                    <td class="ng-tns-c4-0">1</td>
+                    <td class="text-primary">{{Recruiter.Username}}</td>
+                    <td class="text-center"><span class="small bg-success p-1">Paid</span>
+                    </td>
+                    <td class="ng-tns-c4-0">{{Recruiter.Email}}</td>
+                    <td class="ng-tns-c4-0">Block Premission</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
